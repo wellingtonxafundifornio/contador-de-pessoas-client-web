@@ -1,0 +1,10 @@
+Para que o projeto funcione, siga os seguintes passos:
+	- suba o servidor mosquitto;
+	- teste no servidor mosquitto um pub(publish) e um sub(subscribe);
+	- no projeto java, entre na classe "ContadorService.class", na linha 8, coloque no construtor
+	  do ATRIBUTO de tipo "Mosquitto" o IP do servidor mosquitto. "ContadorService.class", linha 8:
+	  	private Mosquitto mosquitto = new Mosquitto("ip do mosquitto aqui...");
+
+	Obs:	
+	- Os tóticos que fazem SUBSCRIBE do mqtt são declarados na classe "Contador.class", nas 
+	  linhas 36 e 37. 

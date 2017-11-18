@@ -1,0 +1,47 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+/.settings/
+/db/
+/target/
+/.classpath
+/.project
+/derby.log
+
+# Ignorando pasta de compilados do Maven
+
+/target/*
+
+
+
+# Ignorando arquivos de configuração do Intelij IDEA
+
+*.iml
+
+
+
+#Mantendo o .gitignore no versionamento
+
+!.gitignore
